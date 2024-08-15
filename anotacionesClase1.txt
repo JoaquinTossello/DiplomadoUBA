@@ -1,0 +1,51 @@
+Presencial, Zoom 1x1
+TFisica y LExactas
+Python
+
+Tarea no se corrije
+TP se corrije
+TP Final
+
+Orden 41
+
+jupiter python notebook - ipynb
+
+No hay diferencia entre "" y ''
+Primero simple y Comilla doble
+
+Break 20 @ 20.00
+
+Puede concatenar con ,
+print("Mi edad es", edad)
+
+input()
+print()
+type()
+
+Tipos de datos:-
+    bool
+    str
+    int
+    float
+    complex
+
+// division truncada a int
+
+str*N repite N veces el str
+nombre = "Joaquin"
+nombre*2 ->>> JoaquinJoaquin
+
+= asigna
+== compara
+=== similar
+
+Cast:-
+int()  // trunca
+float()
+"" o ''
+
+3. == 3.0 == float(3)
+
+and
+or 
+
