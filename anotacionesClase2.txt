@@ -1,0 +1,21 @@
+No van a usar VSCode
+
+>
+<
+>=
+<=
+==
+!=
+
+.lower() # str to min
+.upper() # str to mayus
+
+modulo y paquete de python
+
+Random:-
+import random 
+random.randint(0,5)     // Incluye los extremos
+import nombredelmodulo
+
+random.randint(a,b)     // [a; b]
+random.random()         // [0; 1]
