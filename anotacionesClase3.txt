@@ -1,0 +1,33 @@
+lower
+upper
+capitalize
+
+listas
+
+nombre = ['var1', 'var2', 'etc']
+
+comidas[0]    # primer elemento
+comidas[:3]   # hasta el index 3
+comidas[2:]   # Desde index 3
+comidas[2]    # index 2
+len(comidas)  # cantidad elementos
+
+comidas[-1]     # 1 hacia atras
+comidas[-2:]    # 2 hacia atras hacia la derecha
+comidas[2:4]    # no incluye el maximo
+
+len(compras)    // cantidad de elementos
+compras[0]      // Primer elemento
+compras[1]      // Segundo elemento
+compras[-1]     // Primer elemento en reversa
+compras[:3]     // Elementos desde INICIO hasta indice 3
+compras[2:4]    // Elementos entre A hasta B SIN INCLUIR
+compras[2:]     // Desde indice 2 hasta FIN
+
+sum()           suma los elementos de la listas
+len()           cantidad elementos
+lista(i)        devuelve el i[esimo de la lista]
+lista = [0]*n   genera lista y la llena de 0s
+
+----
+for
