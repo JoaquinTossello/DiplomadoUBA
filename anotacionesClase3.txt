@@ -1,3 +1,4 @@
+-FUNCTIONS-
 lower
 upper
 capitalize
@@ -24,10 +25,60 @@ compras[:3]     // Elementos desde INICIO hasta indice 3
 compras[2:4]    // Elementos entre A hasta B SIN INCLUIR
 compras[2:]     // Desde indice 2 hasta FIN
 
-sum()           suma los elementos de la listas
 len()           cantidad elementos
-lista(i)        devuelve el i[esimo de la lista]
+sum()           suma los elementos de la listas
+lista(i)        devuelve el iesimo de la lista
+comidas[4] = 'fideos'                   actualiza index 4
+comidas.append('papas al horno')        agrega
+lista_palabras.remove('milanesa')       elimina
+comidas.index('fideos')                 returns element index
 lista = [0]*n   genera lista y la llena de 0s
+insert(index, element)  // insertar elemento en posicion X
 
-----
+LISTA[A][B]     // Elemento B de la lista en la posicion A de LISTA
+remove('galletitas')
+
+index('galletitas')     Devuelve indice de galletitas
+append()
+lista2.extend(lista1)   Adds lista1 items to lista2
+count(element)
+pop(index)
+reverse()
+sort()
+copy()  
+clear()
+
+------------------
 for
+while
+
+range(a, b)     // No toma B
+
+for i in range(0, len(lista)):  // for desde 0 hasta len(lista)-1   // no toma el ultimo
+    print( lista[i])
+
+for i in lista:                 // for each
+    print(i)
+
+for element in iterable:        // for each
+    action()
+
+for i in range(0, 11, 2):       // de 0 a 11 con paso 2 
+    print( lista[i])
+
+lista(1)    // devuelve 1er numero
+lista[1]    // devuelve 2do numero
+
+------------------
+while
+
+while condition:
+    action
+
+# SE puede poner input dentro de condicion de while
+while 's'==input("s/n: "):
+  print("puse S")
+
+-------------------
+Contadores
+
