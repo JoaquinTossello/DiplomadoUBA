@@ -1,0 +1,17 @@
+item in lista // MUestra si esta o no en la lista
+
+Se puede separar un numero con "_"
+
+value_when_true if condition else value_when_false // Ternary Operator
+
+fruit = 'Apple'
+isApple = True if fruit == 'Apple' else False
+vs
+
+fruit = 'Apple'
+isApple = False
+if fruit == 'Apple' : isApple = True
+
+break       // Sale del loop
+continue    // salta al siguiente loop
+
