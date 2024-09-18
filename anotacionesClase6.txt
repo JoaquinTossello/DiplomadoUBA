@@ -1,0 +1,6 @@
+# para crear una lista con el abecedario
+import string
+abc=list(string.ascii_lowercase)
+
+str.zfill(2) // Llena 2 dígitos
+
