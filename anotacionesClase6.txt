@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SWITCH
 def http_error(status):
     match status:
@@ -92,3 +93,11 @@ print("Current Time =", current_time)
 
 numpy
 ARRAY es parte de numpy
+=======
+# para crear una lista con el abecedario
+import string
+abc=list(string.ascii_lowercase)
+
+str.zfill(2) // Llena 2 dígitos
+
+>>>>>>> 50954777a98bc6f4ffa75583c7a40221300aaa90
