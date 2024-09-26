@@ -1,0 +1,53 @@
+--Arithmetic--
++       Suma
+-       Resta
+*       Multiplicación       
+/       División
+%       Módulo
+**      Potencia
+//      Piso
+
+--Assignment--
+=       Asignación
++=      x=x+a
+-=      x=x-a
+*=      x=x*a      
+/=      x=x/a
+%=      x=x%a
+//=     x=x//a
+**=     x=x**a
+&=      x=x&a       bool
+|=      x=x|a
+^=      x=x^a
+>>=                 NI IDEA
+<<=                 NI IDEA
+:=      print(x:=3) === x=3; print(x)
+
+--Comparison--
+==      Equal
+!=      Not equal
+>       Major
+<       Minor
+>=      Equal Major
+<=      Equal Minor
+
+--Logical--
+and     and
+or      or
+not     not
+
+--Identity--
+is      Same object
+is not  Different object
+
+--Membership--
+in      In the object
+not in  Not in the object
+
+--Bitwise--
+&       and
+|       or
+^       xor
+~       not
+<<      corre x bits a la izquierda
+>>      corre x bits a la derecha
