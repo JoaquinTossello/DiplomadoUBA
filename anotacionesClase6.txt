@@ -1,0 +1,94 @@
+# SWITCH
+def http_error(status):
+    match status:
+        case 400:
+            return "Bad request"
+        case 404:
+            return "Not found"
+        case 418:
+            return "I'm a teapot"
+        case _:
+            return "Something's wrong with the internet"
+
+
+RESTRICCIONES TP Bot:-
+Menu principal con 4 opciones
+Al menos 2 opciones deben tener un menu adicional
+Todos los menues deben poder hacer BACK
+- SI es menu principal, es EXIT
+Que tenga todo lo que vimos en el curso
+
+Ideas:-
+Bot de pedidos para negocio
+Bot para Alberti
+Bot de numeros de emergencia...
+
+EL trabajo es GRUPAL
+
+MEnsaje de error 
+
+EXTRA = Log de respuestas
+
+5/11/24 entrega
+------------------
+SQUARES = [x**2 for x in range(1,11)]
+
+copy = lista[:]
+
+algo in lista
+algo not in lista
+
+diccionarios
+
+
+string.ascii_lowercase      abcdefghijklmnopqrstuvwxyz
+string.ascii_uppercase      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+string.ascii_letters        abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+string.digits               0123456789
+string.punctuation          .,:;!?()[]{}<>@#$%^&*_+-=~
+
+string.octdigits            01234567
+string.hexdigits            0123456789abcdefABCDEF
+string.printables           0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&'()*+, -./:;<=>?@[\]^_`{|}~
+------------
+import csv
+csv.reader()
+
+import csv
+
+with open('people.csv', 'r') as file:
+    reader = csv.reader(file)
+
+    for row in reader:
+        print(row)
+
+-----
+class ClassName:
+    # class definition 
+-----
+class Bike:
+
+    # constructor function    
+    def __init__(self, name = ""):
+        self.name = name
+
+bike1 = Bike()
+-----
+
+Accuweather
+
+def generator_name(arg):
+    # statements
+    yield something
+-----
+from datetime import datetime
+
+now = datetime.now()
+
+current_time = now.strftime("%H:%M:%S")
+print("Current Time =", current_time)
+#Current Time = 07:41:19
+-----
+
+numpy
+ARRAY es parte de numpy
