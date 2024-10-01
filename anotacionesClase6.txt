@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# SWITCH
 def http_error(status):
     match status:
         case 400:
@@ -99,5 +97,3 @@ import string
 abc=list(string.ascii_lowercase)
 
 str.zfill(2) // Llena 2 dígitos
-
->>>>>>> 50954777a98bc6f4ffa75583c7a40221300aaa90
