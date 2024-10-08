@@ -1,0 +1,98 @@
+Ruleta
+numero aleatorio entre 0 y 36
+listas con 'negro', 'rojo','verde'
+
+si ganamos -> bet x 35
+si perdemos -> bet x -1
+saldo
+
+
+
+
+-var-
+saldo
+apuesta
+
+0.50, 1, 5, 25, 100, 500, 1k
+Clear, Undo, Spin, Double
+
+par / impar
+rojo / negro
+numero
+
+
+
+jugar 10000 veces
+apuesta solo al numero
+apuesta de $1
+¿Cuanta plata al final?
+
+
+n_suerte FIJO
+apuesta
+capital
+capital inicial $5000
+apuesta es de $50
+
+--------------------------------
+Croupier dice "No va más"
+0- Contar con un "capital"
+1- Elegir un número ("n_suerte")
+2- Realizar una "apuesta"
+3- Tirar "ruleta"
+4- actualizar el "capital"
+
+--------------------------------------
+
+INDEX   0   1   2   3   4   5   6   7   8   9   10  11
+        3   6   9   12  15  18  21  24  27  30  33  36
+    0   2   5   8   11  14  17  20  23  26  29  32  35
+        1   4   7   10  13  16  19  22  25  28  31  34
+
+37 x ['rojo',X,Y]
+
+Calle1      [Y_index 0]         2x1
+Calle2      [Y_index 1]         2x1
+Calle3      [Y_index 2]         2x1
+Docena1     [X_index 0-3]       2x1
+Docena2     [X_index 4-7]       2x1
+Docena3     [X_index 8-11]      2x1
+1-18 falta  [X_index 0-5]       1x1
+19-36 pasa  [X_index 6-11]      1x1
+Par         X%2 == 0            1x1
+Impar       X%2 != 0            1x1
+Rojo        Check info          1x1
+Negro       Check info          1x1
+2Docenas                        0.5x1
+2calles                         0.5x1
+Seisena 
+
+X=random.ranint(0,11)
+Y=random.ranint(0,2)
+[X,Y]
+
+=======
+HIGHlow
+ruleta
+tragamonedas
+batalla naval
+buscaminas
+
+
+////////////////////////////
+TERNARIOS
+condition_if_true if condition else condition_if_false
+(if_test_is_false, if_test_is_true)[test]
+
+
+
+
+return      devuelve un solo valor
+yield       utiliza la función como un array
+
+def funcion_generadora():
+    for i in range(10):
+        yield i
+
+for item in funcion_generadora():
+    print(item)
