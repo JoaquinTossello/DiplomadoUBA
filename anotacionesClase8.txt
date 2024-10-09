@@ -1,0 +1,12 @@
+si un parametro es una lista, se modifica por referencia
+
+
+si una variable local sobrescribe una global, primero busca la local y despues la global
+
+fstring
+print(f"")
+
+rstring
+\n      new line
+\t      tab
+r""     literal
