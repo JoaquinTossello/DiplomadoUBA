@@ -1,0 +1,16 @@
+df['talle'] >= 40 //
+
+https://www.youtube.com/watch?v=stTxgSn3O10
+
+https://www.kaggle.com/datasets?fileType=csv
+
+Unidad2 Clase PARA VOLVER A COPIAR
+
+-------------------------------
+
+datos[["CO2 Emissions (g/km)", "make"]].groupby(by = 'Make').mean()
+
+import matplotlib.pyplot as plt 
+
+emisiones_marca = datos[['CO2 EMissions (g/km)','Make','Vehicle Class']].groupby(by = ['Make','Vehicle Class'])
+
