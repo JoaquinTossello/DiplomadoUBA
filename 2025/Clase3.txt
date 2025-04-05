@@ -1,0 +1,31 @@
+pd.head(x) -> primeros x elementos
+
+datos.loc[0, :]         elemento 0, todas las columnas
+
+pd.unique(datos.columna)
+
+df_mas_consumen = datos[datos['Fuel Consumption City (L/100 km)'] >= 20]
+
+scatter = nube de puntos
+plot = linea
+
+groupby(by = )
+
+emisiones_marca = datos[['col1','col2']].groupby(by = 'Make').mean()
+emisiones_marca.sort_values(by = 'col1', ascending = False, inplace = True)
+emisiones_marca
+
+df.groupby('Ciudad')['poblacion'].agg(['mean','sum','max','min','count'])
+
+value_counts()          cantidad de elementos de cada tipo
+value_counts('columna')
+
+
+
+arboles.iloc[:,[0,7]].max() de todas las columnas, usa el 0 y 7
+
+
+
+
+
+
